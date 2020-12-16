@@ -26,6 +26,8 @@ npm install
 
 Enter your text and corresponding language code in attached sample sentiment-analysis.js code.
 
+Language code list here: https://cloud.google.com/natural-language/docs/languages#sentiment_analysis
+
 Run the application:
 ```bash
 node sentiment-analysis
