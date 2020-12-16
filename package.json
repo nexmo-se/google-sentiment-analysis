@@ -1,0 +1,15 @@
+{
+  "name": "google-sentiment-analysis",
+  "version": "1.0.0",
+  "description": "This sample Node.JS code shows how to use Google Sentiment Analysis engine for text from Vonage API Client SDK in-app messaging, Vonage Messaging API, and Vonage SMS API . Multiple languages are supported.",
+  "main": "sentiment-analysis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^4.2.1"
+  },
+  "devDependencies": {}
+}
