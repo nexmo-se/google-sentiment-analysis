@@ -22,7 +22,7 @@ Add necessary packages:
 npm install
 ```
 
-## Test sample transcriptions
+## Test sample text for sentiment
 
 Enter your text and corresponding language code in attached sample sentiment-analysis.js code.
 
