@@ -21,19 +21,6 @@ async function analyzeSentimentOfText(text, language) {
   const [result] = await client.analyzeSentiment({document});
 
   return ([result]);
-
-  // const sentiment = result.documentSentiment;
-  // console.log('Document sentiment:');
-  // console.log(`  Score: ${sentiment.score}`);
-  // console.log(`  Magnitude: ${sentiment.magnitude}`);
-
-  // const sentences = result.sentences;
-  // sentences.forEach(sentence => {
-  //   console.log(`Sentence: ${sentence.text.content}`);
-  //   console.log(`  Score: ${sentence.sentiment.score}`);
-  //   console.log(`  Magnitude: ${sentence.sentiment.magnitude}`);
-  // });
-
 }
 
 //============= Sample sentiment analysis function call ================
